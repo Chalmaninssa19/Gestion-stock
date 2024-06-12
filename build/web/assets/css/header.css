@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 janv. 2023, 11:08:58
+    Author     : ITU
+*/
+
+header{
+    display:flex;
+    font-size: 20px;
+    background-color: #184a73;
+    position: sticky;
+}
+#imageL{
+    height: 100%;
+}
+#menuh{
+    width:60%;
+    margin-left: 10%;
+}
+#menuh li{
+    display:inline;
+    margin:3%;
+}
+#menuh li:hover{
+    background-color:rgb(255,255,255);
+}
+#menuh ul{
+    margin-top:5%;
+    width:120%;
+}
+#recherche{
+    margin-top:2%;
+    width:40%;
+    margin-left: 5%;
+}
+header input{
+    width:50%;
+}
+/* footer*/
+footer{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    background-color: #184a73;
+}
+.section{
+    border-right: 1px solid rgb(255,255,255);
+    width:25%
+}
+.section h4{
+    text-align: center;
+}
+
+#imageDi{
+    width:30%;
+}
+#imageDi img{
+    height: 100%;
+}
+#description{
+   
+    width:60%;
+    float: right;
+}
+.service li{
+    text-decoration: none;
+}
+.service li:hover{
+    background-color: rgb(255,255,255);
+}
+.piece img{
+    width:10%;
+    height: 10%;
+    margin-right:10%;
+}
+#visite{
+    float: right;
+    background-color: #18B7BE;
+
+}
+#visite:hover{
+    width:20%;
+    height: 20%;
+}
+.piece ul{
+    text-transform: none;
+}

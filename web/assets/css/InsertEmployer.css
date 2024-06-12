@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 janv. 2023, 11:06:48
+    Author     : ITU
+*/
+
+form  .Boit{
+    display:flex;
+    width:100%;
+    margin-left: 50%;
+}
+form {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width:100%;
+}
+form .Boit .sous input,h1{
+    width:90%;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+form .Boit .sous .Spsous{
+    font-size: 11px;
+}
+#ajouter{
+    width:20%;
+    background-color: cornflowerblue;
+}
